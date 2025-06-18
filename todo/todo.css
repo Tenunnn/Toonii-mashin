@@ -1,0 +1,66 @@
+.Add-button {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.three-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+#no-task {
+  color: gray;
+}
+.main-container {
+  background-color: white;
+  border: solid gray;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.Powered {
+  display: flex;
+  font-size: 10px;
+  gap: 5px;
+}
+#pinecone {
+  color: blue;
+}
+#All {
+  background-color: gray;
+  height: 20px;
+  width: 30px;
+  border-radius: 4px;
+}
+#Active {
+  background-color: gray;
+  height: 20px;
+
+  border-radius: 4px;
+}
+#Completed {
+  background-color: gray;
+  height: 20px;
+
+  border-radius: 4px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+#Todo-list {
+  background-color: black;
+  height: 4px;
+  width: 4px;
+}

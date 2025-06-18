@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toonii mashin</title>
   </head>
+  
   <body>
+    <div class="style">
     <input type="number" id="number1" />
     <select id="operations">
       <option value="+">+</option>
@@ -14,8 +16,18 @@
       <option value="/">/</option>
     </select>
     <input type="number" id="number2" />
+    <select id="operations2">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" id="number3">
     <button onclick="operation()">=</button>
-    <div id="result"></div>
+    <div
+     id="result"></div>
+     <div id="result2"></div>
   </body>
   <script src="./index.js"></script>
+</div>
 </html>
